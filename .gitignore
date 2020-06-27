@@ -1,0 +1,9 @@
+.venv
+output/
+__pycache__
+
+themes/notmyvital
+themes/pelican-themes
+themes/simple
+
+plugins/pelican-plugins
