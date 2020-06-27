@@ -1,0 +1,58 @@
+body {
+  font-family: "Source Serif Pro", Baskerville, "Libre Baskerville", serif;
+  font-size: 100%;
+  background-color: white;
+  color: #111;
+  width: 80%;
+  min-width: 400px;
+  min-height: 200px;
+  padding: 1em;
+  margin: 5% 10%;
+  /* border: thin solid gray; */
+  border: none;
+  border-radius: 5px;
+  display: block;
+}
+
+a:link    { color: gray; text-decoration: none;      }
+a:hover   { color: gray; text-decoration: underline; }
+a:visited { color: blue;                             }
+
+h1 a { color: inherit !important }
+h2 a { color: inherit !important }
+h3 a { color: inherit !important }
+h4 a { color: inherit !important }
+h5 a { color: inherit !important }
+h6 a { color: inherit !important }
+
+/*
+#menu li {
+    display: inline;
+}
+*/
+
+#post-list {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+pre {
+    margin: 2em 1em 2em 4em;
+    white-space: pre-wrap;
+}
+
+/* footer */
+footer#contentinfo {
+    opacity: .01;
+    color: #FFF;
+}
+
+footer#contentinfo:hover {
+    opacity: 1.0;
+}
+
+footer#contentinfo p {
+    float: right;
+    color: red;
+    padding-top: 10px;
+}
